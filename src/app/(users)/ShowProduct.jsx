@@ -15,7 +15,7 @@ export const showProduct = async () =>{
         return data
 
     }catch(error){
-        log.error("NAhi Mila",error)
+        console.log("NAhi Mila",error)
         return {sucsess:false ,message:"Not Found "}
     }
 }
